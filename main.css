@@ -6,8 +6,8 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: antiquewhite;
-color: black;
-margin: 0;
+    color: black;
+    margin: 0;
 }
 
 header {
@@ -24,9 +24,6 @@ nav a {
 
 nav ul {
     list-style-type: none;
-    position: absolute;
-    top: 0.7rem;
-    right: 1rem;
 }
 
 nav li {
@@ -54,8 +51,4 @@ footer{
     text-align: center;
     background-color: white;
     padding: 4rem;
-    position: fixed;
-    width: 100%;
-    left: 0;
-    bottom: 0;
 }
