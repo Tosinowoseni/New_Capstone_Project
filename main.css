@@ -78,6 +78,30 @@ nav li {
     margin: right;
 }
 
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-list li {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.columns {
+    display: flex;
+    gap: 2rem;
+    width: 800px;
+    border: 10px solid firebrick;
+}
+
+.columns > * {
+    flex-shrink: 1; 
+}
 main {
     margin: 1rem auto;
     width: 100%;
@@ -87,6 +111,12 @@ main {
     /* align-items: center; */
     /* justify-content: center; */
     flex-direction: column;
+    display: flex;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 150px 150px 300px;
 }
 
 @media (min-width:601px){
