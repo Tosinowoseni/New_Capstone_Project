@@ -80,8 +80,9 @@ nav li {
 
 .nav-list {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
     gap: 1rem;
+    
     margin: 0;
     padding: 0;
     list-style: none;
@@ -94,6 +95,7 @@ nav li {
 
 .columns {
     display: flex;
+    flex-direction: row;
     gap: 2rem;
     width: 800px;
     border: 10px solid firebrick;
