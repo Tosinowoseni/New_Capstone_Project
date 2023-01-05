@@ -1,7 +1,3 @@
-import "../styles/main.module.css"
-
-
-
 export default function HomePage (){
     return (
         <>
