@@ -1,0 +1,29 @@
+{
+  "name": "new_capstone_project",
+  "version": "1.0.0",
+  "description": "This is a fashion web application that sells clothes and clothing gear for both men and women and kids",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "lint": "next lint"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tosinowoseni/New_Capstone_Project.git"
+  },
+  "author": "Tosin and Brookes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tosinowoseni/New_Capstone_Project/issues"
+  },
+  "homepage": "https://github.com/Tosinowoseni/New_Capstone_Project#readme",
+  "dependencies": {
+    "next": "^13.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
